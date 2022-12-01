@@ -6,7 +6,6 @@ from transformers import AutoTokenizer
 import re
 from squeakily.helpers import english_flagged_words #list[str] with english flagged words.
 
-
 logging.basicConfig(
     level="NOTSET",
     format="%(message)s",
