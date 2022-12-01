@@ -19,6 +19,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--input_path", type=str)
 parser.add_argument("--output_path", type=str)
 parser.add_argument("--lang_id_model_path", type=str, default="lid.176.bin")
+parser.add_argument("--num_proc", type=int, default=1)
 
 
 
