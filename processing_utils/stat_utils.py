@@ -132,3 +132,5 @@ def get_tok_len(
     """
     return len(tokenizer(document).input_ids)
 
+if __name__ == "__main__":
+    pass
